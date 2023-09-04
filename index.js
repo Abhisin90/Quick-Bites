@@ -8,7 +8,7 @@ mysql.createConnection({
     host:"localhost",
     user:"root",
     password:"",
-    database:"project_laravel"
+    database:"node_project"
 })
 
 app.use(express.static('public'))
